@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(int argc, char const *argv[])
 {
-    int a, b;
+    int c, d;
     printf("Enter the number a\n");
-    scanf("%d", &a);
+    scanf("%d", &c);
     printf("Enter the number b\n");
-    scanf("%d", &b);
-    printf("The subtraction is %d\n", a-b);
+    scanf("%d", &c);
+    printf("The sub is %d\n", c-d);
     return 0;
 }
