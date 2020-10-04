@@ -1,22 +1,28 @@
 #include<stdio.h>
-int main(int argc, char const *argv[])
+#include<conio.h>
+
+int main()
 {
-  int n;
+  int n,x;
+  clrscr();
   printf("Enter an integer\n");
   scanf("%d", &n);
-  {
   if (n%2==0)
-  
   {
-      printf("Even\n");
+    x=1;
   }
-  
   else
   {
-     printf("Odd\n");
+    x=0;
   }
-  
-  
+  if(x==1)
+  {
+    printf("Number is even");
   }
-    return 0;
+  else
+  {
+    printf("Number is odd");
+  }
+  getch();
+  return 0;
 }
