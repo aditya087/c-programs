@@ -1,11 +1,16 @@
 #include<stdio.h>
-int main(int argc, char const *argv[])
+#include<conio.h>
+
+int main()
 {
-    int a, b;
+    int a, b, s;
+    clrscr();
+    s=a*b;
     printf("Enter the number a\n");
     scanf("%d", &a);
     printf("Enter the number b\n");
     scanf("%d", &b);
-    printf("The multiplication is %d\n", a*b);
+    printf("The multiplication is %d\n", s);
+    getch();
     return 0;
 }
